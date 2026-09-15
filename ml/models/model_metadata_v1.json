@@ -1,0 +1,43 @@
+{
+  "model_type": "RandomForestClassifier",
+  "model_version": "1.0",
+  "feature_spec_version": "1.0",
+  "training_data_type": "synthetic_fixture",
+  "is_production_model": false,
+  "classes": [
+    "fist",
+    "open_palm",
+    "victory"
+  ],
+  "dataset": "kaggle",
+  "train_samples": 420,
+  "validation_samples": 90,
+  "test_samples": 90,
+  "hyperparameters": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "class_weight": null,
+    "criterion": "gini",
+    "max_depth": null,
+    "max_features": "sqrt",
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 100,
+    "n_jobs": null,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "metrics": {
+    "accuracy": 0.3111111111111111,
+    "weighted_f1": 0.3092642588314608,
+    "weighted_precision": 0.30819394663480687,
+    "weighted_recall": 0.3111111111111111
+  }
+}

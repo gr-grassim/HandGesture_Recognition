@@ -1,0 +1,54 @@
+{
+  "dataset_name": "Hand Gesture Landmarks",
+  "source": "https://www.kaggle.com/datasets/youssefelebiary/hand-gesture-landmarks",
+  "license": "MIT",
+  "original_classes": [
+    "open",
+    "open_inverted",
+    "close",
+    "close_inverted",
+    "point",
+    "point_inverted",
+    "peace",
+    "peace_inverted",
+    "thumb",
+    "thumb_inverted",
+    "rock",
+    "rock_inverted"
+  ],
+  "mapped_classes": [
+    "fist",
+    "open_palm",
+    "pointing",
+    "rock",
+    "thumbs_up",
+    "victory"
+  ],
+  "number_of_samples": 364,
+  "class_distribution": {
+    "rock": 69,
+    "pointing": 68,
+    "fist": 66,
+    "open_palm": 59,
+    "thumbs_up": 57,
+    "victory": 45
+  },
+  "feature_specification_version": "v1_63D_canonical",
+  "preprocessing_version": "v1_translated_normalized_by_wrist_max",
+  "split_method": "stratified_shuffle_split",
+  "split_seed": 42,
+  "subject_metadata_available": false,
+  "subject_independent_evaluation": false,
+  "train_count": 254,
+  "validation_count": 55,
+  "test_count": 55,
+  "evaluation_metrics": {
+    "test_accuracy": 1.0,
+    "test_macro_f1": 1.0,
+    "test_weighted_f1": 1.0
+  },
+  "is_real_human_data": true,
+  "classes_supported": 6,
+  "is_production_ready": false,
+  "dataset_warning": "Dataset is extremely small (364 samples). Used for pipeline validation only."
+}

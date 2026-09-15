@@ -1,0 +1,10 @@
+{
+  "valid_samples": 600,
+  "rejected_samples": 0,
+  "rejection_reasons": {},
+  "classes": [
+    "fist",
+    "open_palm",
+    "victory"
+  ]
+}

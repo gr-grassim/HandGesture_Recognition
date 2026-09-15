@@ -1,0 +1,24 @@
+dataset:
+  source: kaggle
+  name: youssefelebiary/hand-gesture-landmarks
+  description: 3D MediaPipe hand landmarks
+
+label_mapping:
+  # Kaggle class -> Target class
+  # Target classes: open_palm, fist, thumbs_up, thumbs_down, victory, okay, pointing, rock
+  # Based on standard gesture datasets, we will map standard names.
+  # The actual inspect script will report unmapped classes.
+  open: open_palm
+  close: fist
+  fist: fist
+  point: pointing
+  peace: victory
+  victory: victory
+  thumb: thumbs_up
+  thumbs_up: thumbs_up
+  thumbs_down: thumbs_down
+  rock: rock
+  ok: okay
+  okay: okay
+  
+# Classes not present in mapping will be explicitly dropped during preparation.
